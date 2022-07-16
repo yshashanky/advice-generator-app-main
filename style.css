@@ -93,9 +93,11 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.dice:hover {
-  cursor: pointer;
-  box-shadow: 0 0 30px hsl(150deg 100% 66%);
+@media (hover: hover) {
+  .dice:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px hsl(150deg 100% 66%);
+  }
 }
 
 .attribution {
@@ -105,6 +107,7 @@ body {
   text-align: center;
   margin-top: 60px;
 }
+
 .attribution a {
   color: hsl(193, 38%, 86%);
 }
