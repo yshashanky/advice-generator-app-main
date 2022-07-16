@@ -11,6 +11,7 @@ Users will be able to:
 - View the optimal layout for the app depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
+- For non-touch devices it will show glow on dice when hover, but for touch devices dice will keep blinking after first click.
 
 ### Screenshot
 
