@@ -6,5 +6,15 @@ const userAction = async () => {
 };
 
 const getAdvice = () => {
-  userAction().then((myJson) => console.log(myJson));
+  userAction().then(
+    (myJson) => (document.getElementById("quote").innerHTML = myJson)
+  );
+};
+
+window.onload = function () {
+  var reloading = (document.getElementById("quote").innerHTML =
+    "Please wait for the advice!!");
+  if (reloading) {
+    getAdvice();
+  }
 };
