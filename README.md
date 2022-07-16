@@ -21,7 +21,7 @@ Users will be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/yshashanky/advice-generator-app-main)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://advice-generator-app-yshashanky.netlify.app)
 
 ### Built with
 
