@@ -102,7 +102,7 @@ body {
 
 @media (hover: none) {
   .dice:hover {
-    animation: myfirst 2s 1000000;
+    animation: myfirst 2s 100000000000000000000000;
   }
   @keyframes myfirst {
     15% {
