@@ -17,7 +17,7 @@ body {
   .paddingContainer {
     width: 295px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-right: 20px;
   }
   .width444 {
@@ -48,15 +48,17 @@ body {
 }
 
 .header {
-  text-align: center;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 3px;
   color: hsl(150, 100%, 66%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .quote {
-  margin-top: 30px;
+  margin-top: 25px;
   font-size: 28px;
   text-align: center;
   color: hsl(193, 38%, 86%);
@@ -96,10 +98,12 @@ body {
 }
 
 .attribution {
+  /* background-color: hsl(193, 38%, 86%); */
+  color: hsl(193, 38%, 86%);
   font-size: 11px;
   text-align: center;
   margin-top: 60px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(193, 38%, 86%);
 }
